@@ -1,0 +1,35 @@
+/* Layout.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    /* Vous pouvez ajouter plus de styles au besoin */
+  }
+  
+  /* Ajout de styles pour la Navbar */
+  .navbar {
+    flex-shrink: 0;
+  }
+  
+  /* Ajout de styles pour le Footer */
+  .footer {
+    flex-shrink: 0;
+  }
+  
